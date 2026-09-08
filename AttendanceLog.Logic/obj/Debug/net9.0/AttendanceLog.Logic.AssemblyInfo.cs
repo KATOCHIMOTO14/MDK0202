@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AttendanceLog.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58601ce5a6c1bf5198264df6328e0d950d159cf9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96d657fbbd8b1ab7ac565d4ec04318c20c860655")]
 [assembly: System.Reflection.AssemblyProductAttribute("AttendanceLog.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AttendanceLog.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
+using AttendanceLog.Logic;
 
-namespace AttendanceLog
+var service = new VisitService();
+
+Console.WriteLine("Отобранные записи (Пропуски студентов):");
+foreach (var item in service.GetAbsences())
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("AttendanceLog");
-            Console.WriteLine("Boev Anton");
-        }
-    }
+    Console.WriteLine($"{item.Id}: {item.Student}");
 }
