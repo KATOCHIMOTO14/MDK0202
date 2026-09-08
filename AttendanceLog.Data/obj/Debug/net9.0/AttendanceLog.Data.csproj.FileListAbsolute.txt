@@ -1,0 +1,12 @@
+X:\MDK0202\AttendanceLog.Data\bin\Debug\net9.0\AttendanceLog.Data.deps.json
+X:\MDK0202\AttendanceLog.Data\bin\Debug\net9.0\AttendanceLog.Data.dll
+X:\MDK0202\AttendanceLog.Data\bin\Debug\net9.0\AttendanceLog.Data.pdb
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.GeneratedMSBuildEditorConfig.editorconfig
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.AssemblyInfoInputs.cache
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.AssemblyInfo.cs
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.csproj.CoreCompileInputs.cache
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.sourcelink.json
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.dll
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\refint\AttendanceLog.Data.dll
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\AttendanceLog.Data.pdb
+X:\MDK0202\AttendanceLog.Data\obj\Debug\net9.0\ref\AttendanceLog.Data.dll
