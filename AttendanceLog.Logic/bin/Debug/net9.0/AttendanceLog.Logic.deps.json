@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AttendanceLog.Logic/1.0.0": {
+        "dependencies": {
+          "AttendanceLog.Data": "1.0.0"
+        },
+        "runtime": {
+          "AttendanceLog.Logic.dll": {}
+        }
+      },
+      "AttendanceLog.Data/1.0.0": {
+        "runtime": {
+          "AttendanceLog.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AttendanceLog.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AttendanceLog.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
