@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <ProjectReference Include="..\..\AttendanceLog.Logic\AttendanceLog.Logic.csproj" />
+    <ProjectReference Include="..\..\AttendanceLog.Data\AttendanceLog.Data.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>

@@ -1,10 +1,15 @@
 using System;
+using AttendanceLog.Data;
 using AttendanceLog.Logic;
 
-var service = new VisitService();
+IVisitRepository repository = new DemoVisitRepository();
 
-Console.WriteLine("Отобранные записи (Пропуски студентов):");
-foreach (var item in service.GetAbsences())
+var service = new VisitService(repository);
+
+Console.WriteLine("=== Проверка работы: Основное хранилище ===");
+
+foreach (var item in service.GetImportant())
 {
-    Console.WriteLine($"{item.Id}: {item.Student}");
+    string presence = item.WasPresent ? "Присутствовал" : "Отсутствовал";
+    Console.WriteLine($"[ID {item.Id}] Студент: {item.Student} | Статус: {presence}");
 }

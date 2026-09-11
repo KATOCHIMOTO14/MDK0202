@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using AttendanceLog.Logic;
+
 
 namespace AttendanceLog.Data;
 
-public class VisitRepository
+public class VisitRepository: IVisitRepository
 {
     private readonly List<Visit> _items = new()
     {
